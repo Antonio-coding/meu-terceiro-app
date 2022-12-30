@@ -7,22 +7,24 @@ import {
 import { HomePage } from "./pages/Home/HomePage";
 import { MinhasPaginasPage } from "./pages/MinhasPastas/MinhasPaginasPage";
 import { HeaderPartial } from './Partials/HeaderPartial/HeaderPartial';
-import { saveFolder} from './services/pinService'
+import { AppContext } from './store/AppContext';
 
 function App() {
-  saveFolder("JavaScript");
+
   return (
     <BrowserRouter>
       <div className="App">
-        <HeaderPartial />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="minhas-pastas" element={<MinhasPaginasPage/>} />
-        </Routes>
+        <AppContext>
+          <HeaderPartial />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="minhas-pastas" element={<MinhasPaginasPage />} />
+          </Routes>
+        </AppContext>
       </div>
     </BrowserRouter>
 
-    
+
   );
 }
 
