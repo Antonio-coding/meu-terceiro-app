@@ -7,8 +7,10 @@ import {
 import { HomePage } from "./pages/Home/HomePage";
 import { MinhasPaginasPage } from "./pages/MinhasPastas/MinhasPaginasPage";
 import { HeaderPartial } from './Partials/HeaderPartial/HeaderPartial';
+import { saveFolder} from './services/pinService'
 
 function App() {
+  saveFolder("JavaScript");
   return (
     <BrowserRouter>
       <div className="App">
