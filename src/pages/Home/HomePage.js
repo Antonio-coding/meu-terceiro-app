@@ -25,8 +25,10 @@ export const HomePage = () => {
             <span>{value.name}</span>
             <Container fluid>
                 <Row>
-                    <Col xs={12} md={3}><Card title="veremos oque sai" image="https://natahouse.com/static/3665d1ab2ac0b77afbadc1d13d182f8f/b8290/Guia-pratico-sobre-React.jpg" total={0} /></Col>
-                    <Col xs={12} md={3}><Card title="vamos ver noque vai dar " image="https://www.nicepng.com/png/detail/123-1235180_anime-reaction-images-thinking-anime-png.png" total={1} /></Col>
+                    <Col xs={12} md={3}><Card title="Camisa cropped manga longa de nylon simples / R$70,32" image="https://c8.alamy.com/comp/RDG63Y/stylish-indian-model-man-in-casual-clothes-and-sunglasses-posed-outdoor-at-street-of-india-RDG63Y.jpg" total={0} /></Col>
+                    <Col xs={12} md={3}><Card title="Roupa esportiva de poliéster simples 2 peças / R$83,12" image="https://static.vecteezy.com/ti/fotos-gratis/p1/10430651-afro-americana-menina-com-roupas-coloridas-posando-ao-ar-livre-na-moda-mulher-negra-foto.jpg" total={1} /></Col>
+                    <Col xs={12} md={3}><Card title="Roupa esportiva de poliéster bolsa 2 peças / R$101,06 " image="https://static.vecteezy.com/ti/fotos-gratis/p1/10443813-elegante-indiano-barba-modelo-homem-em-roupas-casuais-posou-ao-ar-livre-na-rua-da-india-foto.jpg" total={0} /></Col>
+                    <Col xs={12} md={3}><Card title="Roupa de ginástica de nylon textura 2 peças / R$108,72 " image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxC-QeUJ5fdjxCBo23FUMnPIWRJE3HPmEUw1gLSXQzeNCRRIY6q_qRkgPfZc37L-DxTxo&usqp=CAU" total={0} /></Col>
                 </Row>
             </Container>
         </div>

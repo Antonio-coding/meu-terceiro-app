@@ -6,11 +6,11 @@ export const MinhasPaginasPage = () => {
         <Container>
             <ListGroup items={[
                 {
-                    title: 'Matemática',
+                    title: 'Salvo',
                     total: '3'
                 },
                 {
-                    title: 'Historia',
+                    title: 'Salvo',
                     total: '5'
                 }                  
             ]} />

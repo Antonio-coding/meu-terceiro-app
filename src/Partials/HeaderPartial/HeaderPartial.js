@@ -8,12 +8,13 @@ export const HeaderPartial = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">DesconPin</Navbar.Brand>
+        <Navbar.Brand href="#home">ATN Loja de Roupas</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Link className='nav-link' to="/">Home</Link>
-            <Link className='nav-link' to="minhas-pastas">Minhas pastas</Link>
+            <Link className='nav-link' to="minhas-pastas">Meus favoritos</Link>
+            <Link className='nav-link' to="minhas-pastas">Carrinho</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

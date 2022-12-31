@@ -10,11 +10,10 @@ export const Card = ({ image, title, total }) => {
         <CardBS>
             <CardBS.Img src={image} alt="CardBS image" />
             <CardBS.ImgOverlay>
-                <Button variant="primary">
-                    Salvar <Badge bg="secondary">{total}</Badge>
-
-                </Button>
             </CardBS.ImgOverlay>
+                <Button variant="primary">
+                Comprar <Badge bg="secondary">{total}</Badge>
+                </Button>
             <CardBS.Body>
                 <CardBS.Title>
                     <span>{title}</span>
